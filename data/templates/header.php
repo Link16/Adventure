@@ -6,7 +6,6 @@
       {
         echo '<li><a href="./connect.php">Connect</a></li>';
         echo '<li><a href="Inscription.php">Inscription</a></li>';
-        echo '<li><a href="list.php">Admin</a></li>';  
       }
       else if ($_SESSION['password'] == 'admin')
       {
@@ -15,7 +14,9 @@
       }
       else
       {
+        $prout = $_SESSION['login'];
         echo '<li><a href="../deco.php">Disconnect</a></li>';
+        echo '<li><a>'.'Bienvenue '.$prout.'</a></li>';
       }
         ?>
     </ul>
