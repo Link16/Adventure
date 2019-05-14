@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -11,16 +12,6 @@
 <body>
 <?php include './templates/header.php'; ?>
 <main>
-<!-- Bouton validation inscription JS -->
-
-<script type="text/javascript">
-   function Message() {
-       var msg="Votre inscription est validée!";
-       //console.log(msg)
-       alert(msg);
-   }
-</script>
-
 <!-- Pitch du jeu -->
 <section>
     <h1>WELCOME TO <strong>ADVENTURE</strong></h1>
