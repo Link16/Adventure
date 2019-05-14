@@ -7,4 +7,4 @@ $stmt->bindParam(':age', $_POST['age']);
 $stmt->bindParam(':Login', $_POST['Login']);
 $stmt->bindParam(':Password', $_POST['Password']);
 $stmt->execute();
-header('Location: /list.php');
+header('Location: /index.php');

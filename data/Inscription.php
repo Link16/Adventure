@@ -53,7 +53,14 @@
       </div>
     </div>
     <div class="row">
-      <input type="submit" value="S'inscrire">
+      <input type="submit" value="S'inscrire" onClick='Message()'>
+      <script type="text/javascript">
+   function Message() {
+       var msg="Votre inscription est validée!";
+       //console.log(msg)
+       alert(msg);
+   }
+</script>
   </div>
 </div>
   </form>

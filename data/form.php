@@ -1,15 +1,24 @@
-  <?php 
-  include '../templates/DOC.php';
-  include '../templates/header.php';
-  $users = 
-      [
-          [
-              'login' => 'admin',
-              'password' => 'password',
-          ],       
-     ];        
-  foreach ($users as $user) {
-    if (($_POST['password'] == $user['password']) && ($_POST['pseudo'] == $user['login']))
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet', href="../css/main.css">
+    <title>Connection</title>
+  </head>
+  <body>
+  <script>function Message() {
+    var msg="Mot de passe incorrect";
+    //console.log(msg)
+    alert(msg);
+}</script>
+    <?php
+    include './templates/header.php';
+    include './controllers/getALLcompte.php';
+
+  foreach ($LOGGS as $LOGG) {
+    if (($_POST['password'] == $LOGG['Password']) && ($_POST['login'] == $LOGG['Login']))
     {
       $test = TRUE;
       break;
@@ -19,16 +28,24 @@
       $test = FALSE;
     }
   }
-  
-  
+   
   if ($test == TRUE)
   {
     session_start();
     foreach ($_POST as $key => $value) {
       $_SESSION[$key] = $value;}
       echo 'Redirection dans 5 secondes.';
-      header("refresh:5;url=../page1.php");}
+      header("refresh:1;url=../page1.php");}
   else
   {
-    echo 'Mot de passe ou login incorrect, réessaye';
-    header("refresh:4;url=./connect.php");}
+    echo '<script>function Message() {
+      var msg="Mot de passe incorrect";
+      //console.log(msg)
+      alert(msg);
+  }</script>';
+  
+    header("refresh:1;url=./connect.php");}
+
+include './templates/footer.html'; ?>    
+  </body>
+  </html>

@@ -1,3 +1,5 @@
+<?php session_start();?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -9,28 +11,8 @@
   <title>Zouzou Adventures</title>
 </head>
 <body>
-<<<<<<< HEAD
-  <?php include './templates/header.php';?>
-  <h1>Zouzou Adventure</h1>
-  <?php include './templates/footer.html';?>
-=======
-<header>
-
-</header>    
-
+<?php include'./templates/header.php';?>
 <main>
-<!-- Bouton validation inscription JS -->
-    <form>
-<input type="button" value="Valider" onClick="Message()">
-</form>
-<script type="text/javascript">
-   function Message() {
-       var msg="Votre inscription est validée!";
-       //console.log(msg)
-       alert(msg);
-   }
-</script>
-
 <!-- Pitch du jeu -->
 <section>
     <h1>WELCOME TO <strong>ADVENTURE</strong></h1>
@@ -45,6 +27,5 @@
 
     </footer>
 
->>>>>>> 5449751fa1b057ce4a40c06c22b55704e1b67019
 </body>
 </html>
