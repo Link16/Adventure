@@ -5,18 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script type="text/javascript" src="popup.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
     <title>Adventure</title>
 </head>
 <body>
-<header>
-
-</header>    
-
+<?php include './templates/header.php'; ?>
 <main>
 <!-- Bouton validation inscription JS -->
-    <form>
-<input type="button" value="Valider" onClick="Message()">
-</form>
+
 <script type="text/javascript">
    function Message() {
        var msg="Votre inscription est validée!";
@@ -35,9 +31,7 @@
 </section>
     </main>
 
-    <footer>
-
-    </footer>
+    <?php include './templates/footer.html'; ?>
 
 </body>
 </html>
