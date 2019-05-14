@@ -17,7 +17,7 @@
         <label for="title">Nom</label>
       </div>
       <div class="col-75">
-        <input type="text" name="lastName" required>
+        <input type="text" id="name" name="lastName" required>
       </div>
     </div>
     <div class="row">  
@@ -25,7 +25,7 @@
         <label for="title">Prénom</label>
       </div>
       <div class="col-75">
-        <input type="text" name="firstName" required>
+        <input type="text" id="name" name="firstName" required>
       </div>
     </div>
     <div class="row">  
@@ -33,7 +33,7 @@
         <label for="title">Age</label>
       </div>
       <div class="col-75">
-        <input type="number" name="age" required>
+        <input type="number" id="name" name="age">
       </div>
     </div>
     <div class="row">
@@ -41,7 +41,7 @@
         <label for="title">Login</label>
       </div>
       <div class="col-75">
-        <input type="text" name="Login" required>
+        <input type="text" id="name" name="Login" required>
       </div>
     </div>
     <div class="row">
@@ -49,7 +49,7 @@
         <label for="title">Password</label>
       </div>
       <div class="col-75">
-        <input type="text" name="Password" required>
+        <input type="text" id="name" name="Password" required>
       </div>
     </div>
     <div class="row">
