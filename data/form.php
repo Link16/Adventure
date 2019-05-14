@@ -38,12 +38,7 @@
       header("refresh:1;url=../page1.php");}
   else
   {
-    echo '<script>function Message() {
-      var msg="Mot de passe incorrect";
-      //console.log(msg)
-      alert(msg);
-  }</script>';
-  
+    echo '<h1>Mot de passe incorrect</h1>';
     header("refresh:1;url=./connect.php");}
 
 include './templates/footer.html'; ?>    
