@@ -1,17 +1,20 @@
-<?php echo 'salut';?>
+
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script type="text/javascript" src="popup.js"></script>
-    <title>Document</title>
+    <title>Adventure</title>
 </head>
 <body>
-    
+<header>
 
+</header>    
+
+<main>
     <form>
 <input type="button" value="Valider" onClick="Message()">
 </form>
@@ -22,6 +25,15 @@
        alert(msg);
    }
 </script>
+
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
 </body>
 </html>
 
