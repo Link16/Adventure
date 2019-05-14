@@ -54,15 +54,7 @@
     </div>
     <div class="row">
       <input type="submit" value="S'inscrire" onClick='Message()'>
-      <script type="text/javascript" src="./js/popup.js">
-  //  function Message() {
-  //      var msg="Votre inscription est validée!";
-  //      //console.log(msg)
-  //      alert(msg);
-  //  }
-  
-
-</script>
+      <script type="text/javascript" src="./js/popup.js"></script>
   </div>
 </div>
   </form>
