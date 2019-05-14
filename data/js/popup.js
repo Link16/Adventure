@@ -3,6 +3,7 @@ function Message() {
        console.log(msg)
        alert(msg);
    }
-   if (login == " ") {
+   
+    if (name['lastName', 'firstName', 'age', 'Login', 'Password'] == " ") {
     alert("Le formulaire n'est pas rempli correctement. Votre inscription n'est pas validée!")
 }
