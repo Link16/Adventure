@@ -3,6 +3,6 @@ function Message() {
        console.log(msg)
        alert(msg);
    }
-   if Message(" ") {
+   if (login == " ") {
        alert("Le formulaire n'est pas rempli correctement. Votre inscription n'est pas validée!")
    }
