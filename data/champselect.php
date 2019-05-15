@@ -19,16 +19,16 @@
                     <div  class="center1">
                          <img id='coucou' onClick="myFunction()" src='../ressources/coucou.jpg'>
                         <div class ="checkbox">
-                            <input class="centercheckbox" type="checkbox" name="Personnages" value="Femme">
+                            <input class="centercheckbox" type="radio" id="1" name="Personnages" value="Femme">
                         </div>
                     </div>
                 </div>
                 <div class="right">
-                    <h1>Le héro sans peur !</h1>
+                    <h1>Le héros sans peur !</h1>
                     <div class="center2">
-                        <img src='../ressources/27566307-guerrier-en-colère.jpg'>
+                        <img id ="coucou1" onClick="myFunction1()" src='../ressources/27566307-guerrier-en-colère.jpg'>
                         <div class="checkbox">
-                            <input class="centercheckbox" type="checkbox" id='2' name="Personnages" value="Homme">
+                            <input class="centercheckbox" type="radio" id='2' name="Personnages" value="Homme">
                         </div>
                     </div>
                 </div>
@@ -59,6 +59,19 @@
 function myFunction() {
   document.getElementById("coucou").style.opacity = "0.5";
   document.getElementById("coucou").style.boxShadow = "3px 3px 30px blue";
+  document.getElementById("coucou1").style.opacity = "1";
+  document.getElementById("coucou1").style.boxShadow = "none";
+  document.getElementById("1").checked =  true;
+  document.getElementById("2").checked =  false;
+  
+}
+function myFunction1() {
+    document.getElementById("coucou1").style.opacity = "0.5";
+  document.getElementById("coucou1").style.boxShadow = "3px 3px 30px blue";
+  document.getElementById("coucou").style.opacity = "1";
+  document.getElementById("coucou").style.boxShadow = "none";
+  document.getElementById("2").checked =  true;
+  document.getElementById("1").checked =  false;
 }
 </script>
 </body>
