@@ -10,7 +10,6 @@
 </head>
 <body>
   <?php include './templates/header.php';?>
-  <script> alert(hello) </script>
  <div style = 'margin-top = 150px !important' class="container">
   <form action="./controllers/addONEcompte.php" method="post">
     <div class="row">  
