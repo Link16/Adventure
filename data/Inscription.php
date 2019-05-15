@@ -17,7 +17,7 @@
         <label for="title">Nom</label>
       </div>
       <div class="col-75">
-        <input type="text" id="name" name="lastName" required>
+        <input type="text" id="prenom" name="lastName" required>
       </div>
     </div>
     <div class="row">  
@@ -25,7 +25,7 @@
         <label for="title">Prénom</label>
       </div>
       <div class="col-75">
-        <input type="text" id="name" name="firstName" required>
+        <input type="text" id="Nom" name="firstName" required>
       </div>
     </div>
     <div class="row">  
@@ -33,7 +33,7 @@
         <label for="title">Age</label>
       </div>
       <div class="col-75">
-        <input type="number" id="name" name="age" size="3" required>
+        <input type="number" id="Nom" name="age" size="3" required>
       </div>
     </div>
     <div class="row">
@@ -53,8 +53,7 @@
       </div>
     </div>
     <div class="row">
-      <input type="submit" value="S'inscrire" onClick='Message()'>
-      <script type="text/javascript" src="./js/popup.js"></script>
+      <input type="submit" value="S'inscrire" id="bouton_envoi">
   </div>
 </div>
   </form>

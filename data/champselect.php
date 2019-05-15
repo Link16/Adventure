@@ -16,8 +16,8 @@
             <div class="top">
                 <div class="left">
                     <h1>La guerrière intrépide !</h1>
-                    <div class="center1">
-                        <img src='../ressources/coucou.jpg'>
+                    <div  class="center1">
+                         <img id='coucou' onClick="myFunction()" src='../ressources/coucou.jpg'>
                         <div class ="checkbox">
                             <input class="centercheckbox" type="checkbox" name="Personnages" value="Femme">
                         </div>
@@ -28,7 +28,7 @@
                     <div class="center2">
                         <img src='../ressources/27566307-guerrier-en-colère.jpg'>
                         <div class="checkbox">
-                            <input class="centercheckbox" type="checkbox" name="Personnages" value="Homme">
+                            <input class="centercheckbox" type="checkbox" id='2' name="Personnages" value="Homme">
                         </div>
                     </div>
                 </div>
@@ -55,5 +55,11 @@
         </div>    
     </main>
 <?php include './templates/footer.html';?>
+<script>
+function myFunction() {
+  document.getElementById("coucou").style.opacity = "0.5";
+  document.getElementById("coucou").style.boxShadow = "3px 3px 30px blue";
+}
+</script>
 </body>
 </html>
