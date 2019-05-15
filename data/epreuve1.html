@@ -33,7 +33,7 @@
     <input type="text" id="response" name="response" required maxlength="20" size="25" placeholder="ta réponse">
     <input type="submit" value="valider">
     <script>
-        if (response == ("l'ombre" || "son ombre" || "ombre" || "Son ombre" || "SON OMBRE" || "OMBRE" || "L'OMBRE" || "une ombre" || "Une ombre", "UNE OMBRE")) {
+        if (document.querySelectorAll("#response").textContent == ("l'ombre" || "son ombre" || "ombre" || "Son ombre" || "SON OMBRE" || "OMBRE" || "L'OMBRE" || "une ombre" || "Une ombre", "UNE OMBRE")) {
             echo "Bonne réponse! Tu peux passer à l'énigme suivante..."
         }
         else
