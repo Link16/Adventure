@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
         <label for="title">Nom</label>
       </div>
       <div class="col-75">
-        <input type="text" name="lastName" required>
+        <input type="text" name="lastName" >
       </div>
     </div>
     <div class="row">  
@@ -25,7 +25,7 @@
         <label for="title">Prénom</label>
       </div>
       <div class="col-75">
-        <input type="text" name="firstName" required>
+        <input type="text" name="firstName" >
       </div>
     </div>
     <div class="row">  
@@ -33,7 +33,7 @@
         <label for="title">Age</label>
       </div>
       <div class="col-75">
-        <input type="number" name="age" size="2" required>
+        <input type="number" name="age" size="2" >
       </div>
     </div>
     <div class="row">
@@ -41,7 +41,7 @@
         <label for="title">Login</label>
       </div>
       <div class="col-75">
-        <input type="text" name="Login" required>
+        <input type="text" name="Login" >
       </div>
     </div>
     <div class="row">
@@ -49,12 +49,14 @@
         <label for="title">Password</label>
       </div>
       <div class="col-75">
-        <input type="text" name="Password" required>
+        <input type="text" name="Password" >
       </div>
     </div>
     <div class="row">
       <input type="submit" value="S'inscrire" onClick='Message()'>
+
       <script type="text/javascript" src="./js/popup.js"></script>
+      
   </div>
 </div>
   </form>
