@@ -1,4 +1,5 @@
-<?php include './controllers/getALLcompte.php'; ?>
+<?php include './controllers/getALLcompte.php'; 
+session_start();?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>

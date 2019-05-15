@@ -8,11 +8,6 @@
     <title>Connection</title>
   </head>
   <body>
-  <script>function Message() {
-    var msg="Mot de passe incorrect";
-    //console.log(msg)
-    alert(msg);
-}</script>
     <?php
     include './templates/header.php';
     include './controllers/getALLcompte.php';
@@ -34,8 +29,8 @@
     session_start();
     foreach ($_POST as $key => $value) {
       $_SESSION[$key] = $value;}
-      echo 'Redirection dans 5 secondes.';
-      header("refresh:1;url=../page1.php");}
+      echo '<h1>Redirection dans 5 secondes.</h1>';
+      header("refresh:1;url=../index.php");}
   else
   {
     echo '<h1>Mot de passe incorrect</h1>';
