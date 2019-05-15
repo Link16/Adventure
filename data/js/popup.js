@@ -13,4 +13,19 @@ for (i = 0; i < 5; i++)
                 alert(msg);
         }
     }
+ 
+    <script>
+    var formValid = document.getElementById('bouton_envoi');
+    var lastName = document.getElementById('lastName');
+    var missLastName = document.getElementById('missLastName');
     
+    formValid.addEventListener('click', validation);
+
+    function validation(event) {
+      if (lastName.validity.valueMissing) {
+        event.preventDefault();
+        missLastName.textContent = 'Prénom manquant';
+        missLastName.style.color = 'red';
+      }
+    }
+  </script>

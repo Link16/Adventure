@@ -10,6 +10,7 @@
 </head>
 <body>
   <?php include './templates/header.php';?>
+  <script> alert(hello) </script>
  <div style = 'margin-top = 150px !important' class="container">
   <form action="./controllers/addONEcompte.php" method="post">
     <div class="row">  
@@ -17,7 +18,7 @@
         <label for="title">Nom</label>
       </div>
       <div class="col-75">
-        <input type="text" name="lastName" required>
+        <input type="text" id="prenom" name="lastName" required>
       </div>
     </div>
     <div class="row">  
@@ -25,7 +26,7 @@
         <label for="title">Prénom</label>
       </div>
       <div class="col-75">
-        <input type="text" name="firstName" required>
+        <input type="text" id="Nom" name="firstName" required>
       </div>
     </div>
     <div class="row">  
@@ -33,7 +34,7 @@
         <label for="title">Age</label>
       </div>
       <div class="col-75">
-        <input type="number" name="age" size="2" >
+        <input type="number" id="Nom" name="age" size="3" required>
       </div>
     </div>
     <div class="row">
@@ -53,11 +54,13 @@
       </div>
     </div>
     <div class="row">
-      <input type="submit" value="S'inscrire">
-      
+      <input type="submit" value="S'inscrire" id="bouton_envoi">
   </div>
 </div>
   </form>
+
+
+
   <?php include './templates/footer.html';?>
 </body>
 </html>
