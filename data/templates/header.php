@@ -14,9 +14,9 @@
       }
       else
       {
-        $prout = $_SESSION['login'];
+        $sess = $_SESSION['login'];
         echo '<li><a href="../deco.php">Disconnect</a></li>';
-        echo '<li><a>'.'Bienvenue '.$prout.'</a></li>';
+        echo '<li><a>'.'Bienvenue '.$sess.'</a></li>';
       }
         ?>
     </ul>
