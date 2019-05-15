@@ -44,12 +44,8 @@
         <label for="title">Login</label>
       </div>
       <div class="col-75">
-<<<<<<< HEAD
-        <input type="text" name="Login" required>
-=======
         <input type="text" id="cece" name="Login" required>
         <span id='missPrenom4'></span><br>
->>>>>>> c7112740181c5e2ae5f4f161fdeba2cb6d2dc2e8
       </div>
     </div>
     <div class="row">
@@ -57,12 +53,8 @@
         <label for="title">Password</label>
       </div>
       <div class="col-75">
-<<<<<<< HEAD
-        <input type="text" name="Password" required>
-=======
         <input type="password" id="coco" name="Password" required>
         <span id='missPrenom5'></span><br>
->>>>>>> c7112740181c5e2ae5f4f161fdeba2cb6d2dc2e8
       </div>
     </div>
     <div class="row">

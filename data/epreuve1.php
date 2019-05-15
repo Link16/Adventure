@@ -28,14 +28,14 @@
     <br>
     <h2>Jeune héro(ïne), selon toi, qu'est ce qui est plus grand que la Tour Eiffel, mais infiniment moins lourd ?</h2>
     <form>
-        <label for="response" :>
-        <input type="text" id="response" name="response" required maxlength="20" size="25" placeholder="ta réponse">
+        <label for="response2" :>
+        <input type="text" id="response2" name="response2" required maxlength="20" size="25" placeholder="ta réponse">
         <input type="button" value="valider" onclick="response2()">
     </form>
     <!-- <script>
         function response() {
             var resp = document.getElementById("response").value;
-        if (resp == ("l'ombre" || "son ombre" || "ombre" || "Son ombre" || "SON OMBRE" || "OMBRE" || "L'OMBRE" || "une ombre" || "Une ombre", "UNE OMBRE")) {
+        if (resp == 0
             echo "Bonne réponse! Tu peux passer à l'énigme suivante..."
         }
         else
@@ -45,8 +45,8 @@
      <br>
     <h2>Jeune héro(ïne), selon toi, qu'est-ce-qui est noir, deviens rouge et fini blanc?</h2>
     <form>
-        <label for="response" :>
-        <input type="text" id="response" name="response" required maxlength="20" size="25" placeholder="ta réponse">
+        <label for="response3" :>
+        <input type="text" id="response3" name="response3" required maxlength="20" size="25" placeholder="ta réponse">
         <input type="submit" value="valider" onclick="response3()">
     </form>
     <!-- <script>
