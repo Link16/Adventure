@@ -162,6 +162,8 @@ main{
     border:solid black 3px;
 }
 .coucou{
+    display:flex;
+    justify-content: center;
     margin-left: 5%;
 }
 input[type=text] {
@@ -206,4 +208,13 @@ input[type=text] {
 img{
     height: 100%;
     width: 100%;
+}
+.centercheckbox{
+    margin: auto;
+}
+
+.checkbox{
+    display:none;
+    display:flex;
+    justify-content: center;
 }

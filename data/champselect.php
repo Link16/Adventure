@@ -1,4 +1,4 @@
-<?php session_start();?>
+<?php session_start();?>   
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,13 +17,19 @@
                 <div class="left">
                     <h1>La guerrière intrépide !</h1>
                     <div class="center1">
-                   <img src='../ressources/coucou.jpg'>
+                        <img src='../ressources/coucou.jpg'>
+                        <div class ="checkbox">
+                            <input class="centercheckbox" type="checkbox" name="Personnages" value="Femme">
+                        </div>
                     </div>
                 </div>
                 <div class="right">
                     <h1>Le héro sans peur !</h1>
                     <div class="center2">
                         <img src='../ressources/27566307-guerrier-en-colère.jpg'>
+                        <div class="checkbox">
+                            <input class="centercheckbox" type="checkbox" name="Personnages" value="Homme">
+                        </div>
                     </div>
                 </div>
             </div>
