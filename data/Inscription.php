@@ -33,7 +33,7 @@
         <label for="title">Age</label>
       </div>
       <div class="col-75">
-        <input type="number" name="age" required>
+        <input type="number" name="age" size="2" required>
       </div>
     </div>
     <div class="row">
