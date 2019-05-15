@@ -26,7 +26,8 @@
         <label for="title">Prénom</label>
       </div>
       <div class="col-75">
-        <input type="text" id="Nom" name="firstName" required>
+        <input type="text" id="cici" name="firstName" required>
+        <span id='missPrenom2'></span><br>
       </div>
     </div>
     <div class="row">  
@@ -34,7 +35,8 @@
         <label for="title">Age</label>
       </div>
       <div class="col-75">
-        <input type="number" id="Nom" name="age" size="3" required>
+        <input type="number" id="caca" name="age" size=3 min=0 required>
+        <span id='missPrenom3'></span><br>
       </div>
     </div>
     <div class="row">
@@ -42,7 +44,12 @@
         <label for="title">Login</label>
       </div>
       <div class="col-75">
+<<<<<<< HEAD
         <input type="text" name="Login" required>
+=======
+        <input type="text" id="cece" name="Login" required>
+        <span id='missPrenom4'></span><br>
+>>>>>>> c7112740181c5e2ae5f4f161fdeba2cb6d2dc2e8
       </div>
     </div>
     <div class="row">
@@ -50,7 +57,12 @@
         <label for="title">Password</label>
       </div>
       <div class="col-75">
+<<<<<<< HEAD
         <input type="text" name="Password" required>
+=======
+        <input type="password" id="coco" name="Password" required>
+        <span id='missPrenom5'></span><br>
+>>>>>>> c7112740181c5e2ae5f4f161fdeba2cb6d2dc2e8
       </div>
     </div>
     <div class="row">
@@ -61,17 +73,54 @@
   <script>
     function myFunction() {
       var zaza = document.getElementById("coucou").value;
+      var zizi = document.getElementById("cici").value;
+      var zouzou = document.getElementById("caca").value;
+      var zeze = document.getElementById("cece").value;
+      var zozo = document.getElementById("coco").value;
       var missPrenom = document.getElementById('missPrenom');
-      if (zaza == "")
+      var missPrenom1 = document.getElementById('missPrenom2');
+      var missPrenom2 = document.getElementById('missPrenom3');
+      var missPrenom3 = document.getElementById('missPrenom4');
+      var missPrenom4 = document.getElementById('missPrenom5');
+      var i = 5;
+      while (i > 0) {
+      if (zaza == "") 
       {
         event.preventDefault();
-                    missPrenom.textContent = 'Prénom manquant';
+                    missPrenom.textContent = 'Nom manquant';
                     missPrenom.style.color = 'red';
+      }
+      else if (zizi == "")
+      {
+        event.preventDefault();
+        missPrenom1.textContent = 'Prénom manquant';
+        missPrenom1.style.color = 'red';
+      }
+      else if (zouzou == "")
+      {
+        event.preventDefault();
+        missPrenom2.textContent = 'Age manquant';
+        missPrenom2.style.color = 'red';
+      }
+      else if (zeze == "")
+      {
+        event.preventDefault();
+        missPrenom3.textContent = 'Login manquant';
+        missPrenom3.style.color = 'red';
+      }
+      else if (zozo == "")
+      {
+        event.preventDefault();
+        missPrenom4.textContent = 'Password manquant';
+        missPrenom4.style.color = 'red';
       }
       else
       {
         alert('cbon');
+        break;
       }
+      i--;
+    }
     }
   </script>
   <?php include './templates/footer.html';?>

@@ -11,8 +11,7 @@
 </head>
 <body>
 
-    <?php include"./templates/header.php";?>
-
+<?php include"./templates/header.php";?>
 
 <main>
     <h1>EPREUVE DE LA SAGESSE</h1>
@@ -62,6 +61,8 @@
     <br>
     <h3>Mamie Müjo te félicite pour ton courage et ta vaillance et t'invite à la <strong>2e épreuve</strong>...celle d'<strong>AGILITE</strong></h3>
 </main>
+
 <?php include './templates/footer.html'?>
+
 </body>
 </html>
