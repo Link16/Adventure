@@ -33,7 +33,7 @@
         <label for="title">Age</label>
       </div>
       <div class="col-75">
-        <input type="number" id="name" name="age">
+        <input type="number" id="name" name="age" size="3" required>
       </div>
     </div>
     <div class="row">
@@ -49,7 +49,7 @@
         <label for="title">Password</label>
       </div>
       <div class="col-75">
-        <input type="text" id="name" name="Password" required>
+        <input type="password" id="name" name="Password" required>
       </div>
     </div>
     <div class="row">
