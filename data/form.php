@@ -30,7 +30,7 @@
     foreach ($_POST as $key => $value) {
       $_SESSION[$key] = $value;}
       echo '<h1>Redirection dans 5 secondes.</h1>';
-      header("refresh:1;url=../index.php");}
+      header("refresh:1;url=../champselect.php");}
   else
   {
     echo '<h1>Mot de passe incorrect</h1>';
