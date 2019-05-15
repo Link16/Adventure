@@ -17,7 +17,8 @@
         <label for="title">Nom</label>
       </div>
       <div class="col-75">
-        <input type="text" id="prenom" name="lastName" required>
+        <input type="text" id="coucou" name="lastName" required>
+        <span id='missPrenom'></span><br>
       </div>
     </div>
     <div class="row">  
@@ -53,10 +54,26 @@
       </div>
     </div>
     <div class="row">
-      <input type="submit" value="S'inscrire" id="bouton_envoi">
+      <input type="submit" value="S'inscrire" onClick="myFunction()">
   </div>
 </div>
   </form>
+  <script>
+    function myFunction() {
+      var zaza = document.getElementById("coucou").value;
+      var missPrenom = document.getElementById('missPrenom');
+      if (zaza == "")
+      {
+        event.preventDefault();
+                    missPrenom.textContent = 'Prénom manquant';
+                    missPrenom.style.color = 'red';
+      }
+      else
+      {
+        alert('cbon');
+      }
+    }
+  </script>
   <?php include './templates/footer.html';?>
 </body>
 </html>
