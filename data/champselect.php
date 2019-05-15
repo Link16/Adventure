@@ -11,7 +11,7 @@
 <body>
 <?php include './templates/header.php';?>
     <main>
-        <form class="coucou" action="./choix.php" method="post">
+        <form class="coucou" action="./controllers/addONEAVENTURIER.php" method="post">
         <div class="containerbaba">
             <div class="top">
                 <div class="left">

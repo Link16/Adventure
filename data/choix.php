@@ -1,3 +1,4 @@
+<?php session_start()?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,9 +9,12 @@
     <title>Choix</title>
 </head>
 <body>
-<?php include './templates/header.php';?>
- <?php var_dump($_POST);?>   
- 
+<?php include './templates/header.php';?>   
+ <?php 
+ foreach ($_POST as $key => $value) {
+    $_SESSION[$key] = $value;} 
+    echo '<h1>'.'Bonjour Aventurier '.$_SESSION['search'].'</h1>'
+    ?>
     <?php include './templates/footer.html';?>
 </body>
 </html>
