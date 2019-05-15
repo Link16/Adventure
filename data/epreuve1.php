@@ -1,4 +1,5 @@
 <?php session_start();?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -20,47 +21,49 @@
 
     <h2>Jeune héro(ïne), selon toi, qu'est-ce-qui s'allonge et rétrécit en même temps?</h2>
     <form>
-        <label for="response" :>
-        <input type="text" id="response" name="response" required maxlength="20" size="25" placeholder="ta réponse">
-        <input type="submit" value="valider">
-    <script>
-        function response() {
-            var resp = document.getElementById("response").value;
-        if (response == ("la vie" || "vie" || "La vie" || "LA VIE" || "VIE")) {
-            echo "Bonne réponse! Tu peux passer à l'énigme suivante..."
-        }
-        else
-            echo "Continue!"
-        }
-    </script>
+        <label for="response1" :>
+        <input type="text" id="response1" name="response1" required maxlength="20" size="25" value="vie" placeholder="ta réponse">
+        <input type="button" value="valider" onclick="response1()">
+    </form>
     <br>
     <h2>Jeune héro(ïne), selon toi, qu'est ce qui est plus grand que la Tour Eiffel, mais infiniment moins lourd ?</h2>
-    <label for="response" :>
-    <input type="text" id="response" name="response" required maxlength="20" size="25" placeholder="ta réponse">
-    <input type="submit" value="valider">
-    <script>
-        if (document.querySelectorAll("#response").textContent == ("l'ombre" || "son ombre" || "ombre" || "Son ombre" || "SON OMBRE" || "OMBRE" || "L'OMBRE" || "une ombre" || "Une ombre", "UNE OMBRE")) {
+    <form>
+        <label for="response" :>
+        <input type="text" id="response" name="response" required maxlength="20" size="25" placeholder="ta réponse">
+        <input type="button" value="valider" onclick="response2()">
+    </form>
+    <!-- <script>
+        function response() {
+            var resp = document.getElementById("response").value;
+        if (resp == ("l'ombre" || "son ombre" || "ombre" || "Son ombre" || "SON OMBRE" || "OMBRE" || "L'OMBRE" || "une ombre" || "Une ombre", "UNE OMBRE")) {
             echo "Bonne réponse! Tu peux passer à l'énigme suivante..."
         }
         else
             echo "Continue!"
-     </script>
+        }
+     </script> -->
      <br>
     <h2>Jeune héro(ïne), selon toi, qu'est-ce-qui est noir, deviens rouge et fini blanc?</h2>
-    <label for="response" :>
-    <input type="text" id="response" name="response" required maxlength="20" size="25" placeholder="ta réponse">
-    <input type="submit" value="valider">
+    <form>
+        <label for="response" :>
+        <input type="text" id="response" name="response" required maxlength="20" size="25" placeholder="ta réponse">
+        <input type="submit" value="valider" onclick="response3()">
     </form>
-    <script>
-    if (response == ("le charbon" || "Le charbon" || "LE CHARBON" || "charbon" || "Charbon" || "CHARBON" || "du charbon" || "Du charbon" || "DU CHARBON" )) {
+    <!-- <script>
+        function response() {
+            var resp = document.getElementById("response").value;
+    if (resp == ("le charbon" || "Le charbon" || "LE CHARBON" || "charbon" || "Charbon" || "CHARBON" || "du charbon" || "Du charbon" || "DU CHARBON" )) {
         echo "Bonne réponse! Tu peux passer à l'énigme suivante..."
     }
     else
         echo "Continue!"
-    </script>
+    }
+    </script> -->
     <br>
     <h3>Mamie Müjo te félicite pour ton courage et ta vaillance et t'invite à la <strong>2e épreuve</strong>...celle d'<strong>AGILITE</strong></h3>
 </main>
+
+<script src="./js/response.js"></script>
 
 <?php include './templates/footer.html'?>
 
