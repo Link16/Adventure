@@ -40,7 +40,7 @@
         <form>
             <label for="response3" :>
             <input type="text" id="response3" name="response3" required maxlength="20" size="25" placeholder="ta réponse">
-            <button type="button" id="btn3" onclick="toggle_text('span_txt');">valider</button>
+            <button type="button" id="btn3" onclick="toggle_text3('span_txt');">valider</button>
         </form>
         <br>
     </span>

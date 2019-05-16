@@ -19,6 +19,8 @@ document.getElementById("btn2").addEventListener("click", function() {
     }
 });
 
+// Faire apparaître les questions au fur et à mesure
+
 document.getElementById("btn3").addEventListener("click", function() {
     var resp = document.getElementById("response3").value;
     if (resp == "le charbon" || "Le charbon" || "LE CHARBON" || "charbon" || "Charbon" || "CHARBON" || "du charbon" || "Du charbon" || "DU CHARBON" ) {
@@ -41,4 +43,4 @@ function toggle_text2(e1e3) {
     if(span.style.visibility == "hidden") {
       span.style.visibility = "visible";
     } 
-  } 
+  }
