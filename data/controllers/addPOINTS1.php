@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 $total = 0;
 var_dump($_POST);
 if ($_POST['response1']=="la vie" || $_POST['response1']=="La vie" || $_POST['response1']=="vie" || $_POST['response1']=="VIE" || $_POST['response1']=="La Vie")
@@ -20,7 +20,8 @@ if ($_POST['response3']=="le charbon" || $_POST['response3']=="charbon" || $_POS
 echo $total;
 
 $pdo = new PDO('mysql:host=localhost; dbname=Scores', 'root', '0000', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
-    $stmt = $pdo->prepare('INSERT INTO score (Points) VALUES (:Points)');
+    $stmt = $pdo->prepare('INSERT INTO score (Points, perso) VALUES (:Points, :perso)');
     $stmt->bindParam(':Points', $total);
+    $stmt->bindParam(':perso',$_SESSION['search']);
     $stmt->execute();
  header('Location:../epreuve2.php');
