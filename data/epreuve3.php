@@ -28,14 +28,14 @@
         <button type="button" id="btn4" onclick="toggle_text('span_txt');">valider</button>
     <br>
     <span id="e1e2" style="visibility:hidden">
-        <h2>Jeune héro(ïne), selon toi, qu'est ce qui est plus grand que la Tour Eiffel, mais infiniment moins lourd ?</h2>
+        <h2>Qui suis-je? Héros du XVe jeu de cette saga connue mondialement, je suis un prince héritier du trône de mon royaume. Je possède un nom latin. Je permets à certaines personnes de m'appeler Noct. Je suis...</h2>
             <label for="response5" :>
             <input type="text" id="response5" name="response5" required maxlength="20" size="25" placeholder="ta réponse" style="color:red"!important>
             <button type="button" id="btn5" onclick="toggle_text2('span_txt');">valider</button>
         <br>
     </span>
     <span id="e1e3" style="visibility:hidden">
-        <h2>Jeune héro(ïne), selon toi, qu'est-ce-qui est noir, deviens rouge et fini blanc?</h2>
+        <h2>Je suis qualifié comme problème ou expression fonctionnelle. Mon origine remonte à une publication de 1202 dans l'ouvrage Liber abaci décrivant la croissance d'une population de lapins. Je suis une suite d'entiers dans laquelle chaque terme est la somme des deux termes qui le précèdent. Je suis...</h2>
             <label for="response6" :>
             <input type="text" id="response6" name="response6" required maxlength="20" size="25" placeholder="ta réponse" style="color:red"!important>
             <button type="button" id="btn6" onclick="toggle_text3('span_txt');">valider</button>
