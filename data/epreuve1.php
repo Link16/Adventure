@@ -21,7 +21,7 @@
     <p>Il y a 3 énigmes à résoudre...A <strong>vous</strong> de bien y répondre!</p>
     <br>
     <h2>Jeune héro(ïne), selon toi, qu'est-ce-qui s'allonge et rétrécit en même temps?</h2>
-    <form action=" " method="GET">
+    <form action="./controllers/addPOINTS1.php" method="POST">
         <label for="response1" :>
         <input type="text" id="response1" name="response1" required maxlength="20" size="25" placeholder="ta réponse">
         <button type="button" id="btn1" onclick="toggle_text('span_txt');">valider</button>
@@ -29,19 +29,17 @@
     <br>
     <span id="e1e2" style="visibility:hidden">
         <h2>Jeune héro(ïne), selon toi, qu'est ce qui est plus grand que la Tour Eiffel, mais infiniment moins lourd ?</h2>
-        <form>
             <label for="response2" :>
             <input type="text" id="response2" name="response2" required maxlength="20" size="25" placeholder="ta réponse">
             <button type="button" id="btn2" onclick="toggle_text2('span_txt');">valider</button>
-        </form>
         <br>
     </span>
     <span id="e1e3" style="visibility:hidden">
         <h2>Jeune héro(ïne), selon toi, qu'est-ce-qui est noir, deviens rouge et fini blanc?</h2>
-        <form>
             <label for="response3" :>
             <input type="text" id="response3" name="response3" required maxlength="20" size="25" placeholder="ta réponse">
             <button type="button" id="btn3" onclick="toggle_text3('span_txt');">valider</button>
+            <input type="submit" value="continuer">
         </form>
         <br>
     </span>

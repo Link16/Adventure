@@ -12,7 +12,6 @@ document.getElementById("btn1").addEventListener("click", function() {
 document.getElementById("btn2").addEventListener("click", function() {
     var resp = document.getElementById("response2").value;
     if (resp=="l'ombre" || resp=="son ombre" || resp=="ombre" || resp=="Son ombre" || resp=="SON OMBRE" || resp=="OMBRE" || resp=="L'OMBRE" || resp=="une ombre" || resp=="Une ombre" || resp=="UNE OMBRE") {
-        // document.getElementById('response2').setAttribute('disabled');
         alert("Bonne réponse! Tu peux passer à l'énigme suivante...")
     }
     else {
