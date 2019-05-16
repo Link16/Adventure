@@ -24,4 +24,4 @@ $pdo = new PDO('mysql:host=localhost; dbname=Scores', 'root', '0000', array(PDO:
     $stmt->bindParam(':Points', $total);
     $stmt->bindParam(':perso',$_SESSION['search']);
     $stmt->execute();
- header('Location: epreuve2.php');
+ header('Location:../epreuve2.php');

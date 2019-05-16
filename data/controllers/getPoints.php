@@ -16,5 +16,5 @@ $stmt = $pdo->prepare('UPDATE score SET Points = :Points WHERE perso = :perso');
 $stmt->bindParam(':perso', $_SESSION['search']);
 $stmt->bindParam(':Points', $total);
 $stmt->execute();
-header('Location: ./epreuve3.php');
+header('Location: ../epreuve3.php');
 ?>
