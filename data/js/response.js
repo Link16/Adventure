@@ -31,6 +31,26 @@ document.getElementById("btn3").addEventListener("click", function() {
     }
 });
 
+document.getElementById("btn4").addEventListener("click", function() {
+    var resp = document.getElementById("response4").value;
+    if (resp=="ganon" || resp=="Ganon" || resp=="GANON" || resp=="ganondorf" || resp=="Ganondorf" || resp=="GANONDORF") {
+        alert("Bonne réponse! Tu as fini la première épreuve!")
+    }
+    else {
+        alert("Tu as fini la première épreuve!")
+    }
+});
+
+document.getElementById("btn5").addEventListener("click", function() {
+    var resp = document.getElementById("response5").value;
+    if (resp=="ganon" || resp=="Ganon" || resp=="GANON" || resp=="ganondorf" || resp=="Ganondorf" || resp=="GANONDORF") {
+        alert("Bonne réponse! Tu as fini la première épreuve!")
+    }
+    else {
+        alert("Tu as fini la première épreuve!")
+    }
+});
+
 function toggle_text(e1e2) {
     var span = document.getElementById('e1e2');
     if(span.style.visibility == "hidden") {
