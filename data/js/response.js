@@ -1,16 +1,17 @@
 document.getElementById("btn1").addEventListener("click", function() {
     var resp = document.getElementById("response1").value;
-    if (resp == "la vie" || "La vie" || "vie" || "VIE" || "La Vie") {
+    if (resp=="la vie" || resp=="La vie" || resp=="vie" || resp=="VIE" || resp=="La Vie") {
         alert("Bonne réponse! Tu peux passer à l'énigme suivante...")
     }
     else {
         alert("Continue!")
     }
+
 });
 
 document.getElementById("btn2").addEventListener("click", function() {
     var resp = document.getElementById("response2").value;
-    if (resp == "l'ombre" || "son ombre" || "ombre" || "Son ombre" || "SON OMBRE" || "OMBRE" || "L'OMBRE" || "une ombre" || "Une ombre" || "UNE OMBRE") {
+    if (resp=="l'ombre" || resp=="son ombre" || resp=="ombre" || resp=="Son ombre" || resp=="SON OMBRE" || resp=="OMBRE" || resp=="L'OMBRE" || resp=="une ombre" || resp=="Une ombre" || resp=="UNE OMBRE") {
         // document.getElementById('response2').setAttribute('disabled');
         alert("Bonne réponse! Tu peux passer à l'énigme suivante...")
     }
@@ -23,7 +24,7 @@ document.getElementById("btn2").addEventListener("click", function() {
 
 document.getElementById("btn3").addEventListener("click", function() {
     var resp = document.getElementById("response3").value;
-    if (resp == "le charbon" || "Le charbon" || "LE CHARBON" || "charbon" || "Charbon" || "CHARBON" || "du charbon" || "Du charbon" || "DU CHARBON" ) {
+    if (resp=="le charbon" || resp=="Le charbon" || resp=="LE CHARBON" || resp=="charbon" || resp=="Charbon" || resp=="CHARBON" || resp=="du charbon" || resp=="Du charbon" || resp=="DU CHARBON" ) {
         alert("Bonne réponse! Tu as fini la première épreuve!")
     }
     else {

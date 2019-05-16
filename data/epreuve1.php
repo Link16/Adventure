@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/exportedcss.css">
+    <link rel="stylesheet" href="./css/episode.css">
     <title>Epreuve 1 - Sagesse</title>
 </head>
 <body>
@@ -18,9 +19,9 @@
     <h1>EPREUVE DE LA SAGESSE</h1>
     <p>Vous voici arrivé(e) à la première épreuve de votre périple : l'épreuve de <strong>Sagesse</strong>.</p>
     <p>Il y a 3 énigmes à résoudre...A <strong>vous</strong> de bien y répondre!</p>
-
+    <br>
     <h2>Jeune héro(ïne), selon toi, qu'est-ce-qui s'allonge et rétrécit en même temps?</h2>
-    <form>
+    <form action=" " method="GET">
         <label for="response1" :>
         <input type="text" id="response1" name="response1" required maxlength="20" size="25" placeholder="ta réponse">
         <button type="button" id="btn1" onclick="toggle_text('span_txt');">valider</button>

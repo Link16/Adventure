@@ -1,0 +1,34 @@
+h1 {
+   color: rgb(6, 120, 124)!important;
+   font-size: 3em;
+}
+
+p {
+    color: rgb(233, 180, 180)!important;
+    font-size: 1em;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(6, 120, 124)!important;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    text-align: center;
+}
+
+h3 {
+    color: rgb(17, 71, 73)!important;
+    font-size: 2em;
+}
+
+body {
+    height: 80vh;
+    width: 100%;
+}
