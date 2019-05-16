@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/exportedcss.css">
     <link rel="stylesheet" href="./css/episode.css">
-    <title>Epreuve 1 - Sagesse</title>
+    <title>Epreuve 2 - Agilité</title>
 </head>
 <body>
 
@@ -17,34 +17,19 @@
 
 <main>
     <h1>EPREUVE D'AGILITE</h1>
-    <p>Vous voici arrivé(e) à la deuxième épreuve de votre périple : l'épreuve d' <strong>Agilité</strong>.</p>
-    <p>Il y a 3 énigmes à résoudre...A <strong>vous</strong> de bien y répondre!</p>
-    <br>
-    <h2>Jeune héro(ïne), selon toi, </h2>
-    <form action="./controllers/updatePOINTS.php" method="POST">
-        <label for="response1" :>
-        <input type="text" id="response1" name="response1" required maxlength="20" size="25" placeholder="ta réponse" style="color:red"!important>
-        <button type="button" id="btn1" onclick="toggle_text('span_txt');">valider</button>
-    </form>
-    <br>
-    <span id="e1e2" style="visibility:hidden">
-        <h2>Jeune héro(ïne), selon toi, </h2>
-            <label for="response2" :>
-            <input type="text" id="response2" name="response2" required maxlength="20" size="25" placeholder="ta réponse" style="color:red"!important>
-            <button type="button" id="btn2" onclick="toggle_text2('span_txt');">valider</button>
-        <br>
-    </span>
-    <span id="e1e3" style="visibility:hidden">
-        <h2>Jeune héro(ïne), selon toi, </h2>
-            <label for="response3" :>
-            <input type="text" id="response3" name="response3" required maxlength="20" size="25" placeholder="ta réponse" style="color:red"!important>
-            <button type="button" id="btn3" onclick="toggle_text3('span_txt');">valider</button>
-        </form>
-        <br>
-    </span>
-    <br>
-    <h3>Mamie Müjo te félicite pour ton courage et ta vaillance et t'invite à la <strong>2e épreuve</strong>...celle d'<strong>AGILITE</strong></h3>
-    <input type="submit" value="continuer">
+    <p>Vous voici arrivé(e) à la deuxième épreuve de votre périple : l'épreuve d' <strong>Agilité</strong>.</p>    <br>
+    <div class="flex agilityDiv">
+        <div id="divMyScore" class="hidden"><p>Ton score est de :<span id="score"> 0 </span> points !</p></div>
+            <div>
+                <canvas id="gameCanvas" width="300" height="300" style="margin-left:30px"><canvas>
+                    </div>
+                    <button id="startBtn" onclick="snakeGame()">Start</button>
+        </div>
+            <form  class="" action="./controllers/getPoints.php" method="post">
+                <input id="myScore" class="hidden" type="text" name="agilityScore">
+                <button id="nextBtn" class="hidden" >Suivant</button>
+            </form>
+<script src="./js/snakeGame.js"></script>   
 </main>
 
 <script src="./js/response.js"></script>
