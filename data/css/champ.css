@@ -214,7 +214,7 @@ img{
 }
 
 .checkbox{
-    display:none;
+    visibility:hidden;
     display:flex;
     justify-content: center;
 }

@@ -108,7 +108,7 @@
       }
       else
       {
-        alert('cbon');
+        alert('Vous êtes bien inscrit(e) !');
         break;
       }
       i--;
