@@ -20,8 +20,8 @@
         </div>
         <div class="regles">
             <p><strong>Voici les règles:</strong><br><br>
-            Ici bas tu devras résoudes des énigmes, ainsi tu accumuleras un total de points.<br><br>
-            Si tu fais partis du TOP 5 des joueurs, tu pourras aller affronter la sorcière !<br>
+            Ici bas tu devras résoudre des énigmes et faire preuve de concentration, ainsi tu accumuleras un total de points.<br><br>
+            Si tu fais partis du TOP 5 des joueurs, tu pourras aller affronter la sorcière !<br><br>
             Ne te précipite pas et prend ton temps pour répondre correctement aux épreuves de sagesse et savoir.
             </p>    
         </div>
@@ -32,7 +32,7 @@
             </div>
             
             <div class="basdroit">
-                <div id='zoubou' onClick='myfunc()' class="jouer">
+                <div id='zoubou' class="jouer" style='box-shadow : 5px 5px 30px blue'>
                     <div class = "Crasse">
                         <a href='./epreuve1.php'><H1>JOUER !</H1></a>
                     </div>
@@ -40,12 +40,7 @@
             </div>
         </div>
    
-<?php var_dump($_SESSION);?>
     </div>
     <?php include './templates/footer.html';?>
 </body>
-<script>
-
-document.getElementById("zoubou").style.boxShadow = "px 3px 30px blue";
-</script>
 </html>

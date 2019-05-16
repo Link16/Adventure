@@ -58,7 +58,7 @@
       </div>
     </div>
     <div class="row">
-      <input type="submit" value="S'inscrire" onClick="myFunction()">
+      <input type="submit" value="S'inscrire" onClick="myFunction()" style="background-color:grey">
   </div>
 </div>
   </form>

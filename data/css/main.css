@@ -4,10 +4,13 @@ html {
      height:100vh;
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
   }
   
   h1 {
     text-align: center;
+    font-size: 50px;
+    color : rgb(186, 67, 24);
   }
   .butt{
     padding: 1.5% 100%;
@@ -18,7 +21,10 @@ html {
     margin: 0;
     height: 100vh;
   }
-  
+  label{
+    color:black!important;
+    font-size: 20px!important;
+  }
   ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -26,7 +32,10 @@ html {
     overflow: hidden;
     background-color: rgba(51, 51, 51, 0.644);
   }
-  
+  input{
+    color:rgba(199, 14, 14, 0.891);
+    font-size: 20px!important;
+  }
   ul.topnav li {float: left;}
   
   ul.topnav li a {
@@ -126,8 +135,6 @@ html {
 .top {
   width: 100%;
   height: 10%;
-  border-bottom:solid black 1px;
-  box-align: border-box;
 }
 
 .regles{
