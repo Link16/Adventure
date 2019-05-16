@@ -175,3 +175,13 @@ a {
   margin-top:10%;
   margin: auto;
 }
+
+.flex{
+  display:flex;
+}
+
+.hidden{
+  visibility: hidden;
+  display:flex;
+  font-size: 50px;
+}

@@ -13,7 +13,8 @@
 </head>
 <body>
 
-<?php include"./templates/header.php";?>
+<?php include"./templates/header.php";
+var_dump($_SESSION);?>
 
 <main>
     <h1>EPREUVE DE SAGESSE</h1>

@@ -40,12 +40,12 @@
             </div>
         </div>
    
-
+<?php var_dump($_SESSION);?>
     </div>
     <?php include './templates/footer.html';?>
 </body>
 <script>
 
-document.getElementById("zoubou").style.boxShadow = "3px 3px 30px blue";
+document.getElementById("zoubou").style.boxShadow = "px 3px 30px blue";
 </script>
 </html>
