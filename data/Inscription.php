@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel=stylesheet href="./css/main.css">
   <link rel="stylesheet" href="./css/exportedcss.css">
+  <link rel="icon" href="./ressources/favico.ico"/>
   <title>Inscrivez-vous !</title>
 </head>
 <body>

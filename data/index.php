@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/exported.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./ressources/favico.ico"/>
     <title>Adventure</title>
 </head>
 <body>
