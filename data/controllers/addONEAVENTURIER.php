@@ -7,4 +7,4 @@ foreach ($_POST as $key => $value) {
     $stmt->bindParam(':nom', $_SESSION['search']);
     $stmt->bindParam(':sexe', $_SESSION['Personnages']);
     $stmt->execute();
-    header("refresh:6454;url=../choix.php");
+    header("refresh:0;url=../choix.php");

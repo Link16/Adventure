@@ -14,12 +14,12 @@
       }
       else
       {
-        if (!isset($_SESSION['search']))
+        if (isset($_SESSION['search']))
         {
           $sess = $_SESSION['login'];
           echo '<li><a href="../deco.php">Disconnect</a></li>';
           echo '<li><a>'.'Bienvenue '.$sess.'</a></li>';
-          echo '<li><a href="../choix.php">Reprenez le jeu ou vous en êtiez !</a></li>';  
+          echo '<li><a href="../choix.php">Continuez !</a></li>';  
         }
         else
         {
