@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.26, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.62, for debian-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: Connect
 -- ------------------------------------------------------
--- Server version	5.7.26-0ubuntu0.16.04.1
+-- Server version	5.5.62-0ubuntu0.14.04.1
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -30,7 +30,7 @@ CREATE TABLE `LOGG` (
   `lastName` tinytext NOT NULL,
   `age` int(10) unsigned NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=53 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,7 +39,7 @@ CREATE TABLE `LOGG` (
 
 LOCK TABLES `LOGG` WRITE;
 /*!40000 ALTER TABLE `LOGG` DISABLE KEYS */;
-INSERT INTO `LOGG` VALUES (15,'admin','admin','admin','admin',101),(19,'sam','sam','sam','sam',454),(20,'oui','oui','oui','oui',45),(21,'anto','coucou','ou','anto',47),(22,'root','0000','ertert','ertert',4),(23,'poupou','ghgui','azeaze','azeazr rezt ',445),(24,'4*84/84*4','48*4*84*84','ert drtuj rxjui','az\"e eryh ',95198514),(25,'didier','di','di','didier',11),(26,'hello','hello','hello','hello',1);
+INSERT INTO `LOGG` VALUES (15,'admin','admin','admin','admin',101),(19,'sam','sam','sam','sam',454),(51,'COUCOU','COUCOU','COUCOU','COUCOU',5),(52,'Mireille','jul','Valjean','Jean',58);
 /*!40000 ALTER TABLE `LOGG` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-05-15  9:14:02
+-- Dump completed on 2019-05-16 20:47:45

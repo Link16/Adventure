@@ -23,22 +23,8 @@ DROP TABLE IF EXISTS `score`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `score` (
-  `scoreTotal` int(6) NOT NULL,
-  `savoirTotal` int(6) NOT NULL,
-  `savoirE3` int(6) NOT NULL,
-  `savoirE2` int(6) NOT NULL,
-  `savoirE1` int(6) NOT NULL,
-  `agiliteTotal` int(6) NOT NULL,
-  `agiliteE3` int(6) NOT NULL,
-  `agitliteE2` int(6) NOT NULL,
-  `agiliteE1` int(6) NOT NULL,
-  `sagesseTotal` int(6) NOT NULL,
-  `sagesseE3` int(6) NOT NULL,
-  `sagesseE2` int(6) NOT NULL,
-  `sagesseE1` int(6) NOT NULL,
-  `logins` varchar(30) NOT NULL,
-  `id` int(10) NOT NULL AUTO_INCREMENT,
-  PRIMARY KEY (`id`)
+  `Points` int(6) unsigned NOT NULL,
+  `perso` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -48,6 +34,7 @@ CREATE TABLE `score` (
 
 LOCK TABLES `score` WRITE;
 /*!40000 ALTER TABLE `score` DISABLE KEYS */;
+INSERT INTO `score` VALUES (6,'JeanValjean'),(2,'wdf');
 /*!40000 ALTER TABLE `score` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -60,4 +47,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-05-15 15:31:10
+-- Dump completed on 2019-05-16 20:48:01
