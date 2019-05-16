@@ -22,43 +22,28 @@
     <h2>Jeune héro(ïne), selon toi, qu'est-ce-qui s'allonge et rétrécit en même temps?</h2>
     <form>
         <label for="response1" :>
-        <input type="text" id="response1" name="response1" required maxlength="20" size="25" value="vie" placeholder="ta réponse">
-        <input type="button" value="valider" onclick="response1()">
+        <input type="text" id="response1" name="response1" required maxlength="20" size="25" placeholder="ta réponse">
+        <button type="button" id="btn1" onclick="toggle_text('span_txt');">valider</button>
     </form>
     <br>
-    <h2>Jeune héro(ïne), selon toi, qu'est ce qui est plus grand que la Tour Eiffel, mais infiniment moins lourd ?</h2>
-    <form>
-        <label for="response2" :>
-        <input type="text" id="response2" name="response2" required maxlength="20" size="25" placeholder="ta réponse">
-        <input type="button" value="valider" onclick="response2()">
-    </form>
-    <!-- <script>
-        function response() {
-            var resp = document.getElementById("response").value;
-        if (resp == 0
-            echo "Bonne réponse! Tu peux passer à l'énigme suivante..."
-        }
-        else
-            echo "Continue!"
-        }
-     </script> -->
-     <br>
-    <h2>Jeune héro(ïne), selon toi, qu'est-ce-qui est noir, deviens rouge et fini blanc?</h2>
-    <form>
-        <label for="response3" :>
-        <input type="text" id="response3" name="response3" required maxlength="20" size="25" placeholder="ta réponse">
-        <input type="submit" value="valider" onclick="response3()">
-    </form>
-    <!-- <script>
-        function response() {
-            var resp = document.getElementById("response").value;
-    if (resp == ("le charbon" || "Le charbon" || "LE CHARBON" || "charbon" || "Charbon" || "CHARBON" || "du charbon" || "Du charbon" || "DU CHARBON" )) {
-        echo "Bonne réponse! Tu peux passer à l'énigme suivante..."
-    }
-    else
-        echo "Continue!"
-    }
-    </script> -->
+    <span id="e1e2" style="visibility:hidden">
+        <h2>Jeune héro(ïne), selon toi, qu'est ce qui est plus grand que la Tour Eiffel, mais infiniment moins lourd ?</h2>
+        <form>
+            <label for="response2" :>
+            <input type="text" id="response2" name="response2" required maxlength="20" size="25" placeholder="ta réponse">
+            <button type="button" id="btn2" onclick="toggle_text2('span_txt');">valider</button>
+        </form>
+        <br>
+    </span>
+    <span id="e1e3" style="visibility:hidden">
+        <h2>Jeune héro(ïne), selon toi, qu'est-ce-qui est noir, deviens rouge et fini blanc?</h2>
+        <form>
+            <label for="response3" :>
+            <input type="text" id="response3" name="response3" required maxlength="20" size="25" placeholder="ta réponse">
+            <button type="button" id="btn3" onclick="toggle_text('span_txt');">valider</button>
+        </form>
+        <br>
+    </span>
     <br>
     <h3>Mamie Müjo te félicite pour ton courage et ta vaillance et t'invite à la <strong>2e épreuve</strong>...celle d'<strong>AGILITE</strong></h3>
 </main>
