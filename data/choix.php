@@ -1,4 +1,4 @@
-<?php session_start()?>
+<?php session_start();?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,8 +13,9 @@
  <?php 
  foreach ($_POST as $key => $value) {
     $_SESSION[$key] = $value;} 
-    echo '<h1>'.'Bonjour Aventurier '.$_SESSION['search'].'</h1>'
     ?>
+
+    <?='<h1>'.'Bonjour Aventurier '.$_SESSION['search'].'</h1>'?>
     <?php include './templates/footer.html';?>
 </body>
 </html>
