@@ -33,8 +33,10 @@
             
             <div class="basdroit">
                 <div id='zoubou' onClick='myfunc()' class="jouer">
-                    <H1>JOUER !</H1>
-                </div>
+                    <div class = "Crasse">
+                        <a href='./epreuve1.php'><H1>JOUER !</H1></a>
+                    </div>
+               </div>
             </div>
         </div>
    

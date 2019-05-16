@@ -16,7 +16,7 @@
 <?php include"./templates/header.php";?>
 
 <main>
-    <h1>EPREUVE DE LA SAGESSE</h1>
+    <h1>EPREUVE DE SAGESSE</h1>
     <p>Vous voici arrivé(e) à la première épreuve de votre périple : l'épreuve de <strong>Sagesse</strong>.</p>
     <p>Il y a 3 énigmes à résoudre...A <strong>vous</strong> de bien y répondre!</p>
     <br>
