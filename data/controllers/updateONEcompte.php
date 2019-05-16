@@ -8,5 +8,6 @@ $stmt->bindParam(':Login', $_POST['Login']);
 $stmt->bindParam(':Password', $_POST['Password']);
 $stmt->bindParam(':id',$_POST['id']);
 $stmt->execute();
+
 header('Location: /list.php');
 ?>

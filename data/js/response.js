@@ -6,7 +6,6 @@ document.getElementById("btn1").addEventListener("click", function() {
     else {
         alert("Continue!")
     }
-
 });
 
 document.getElementById("btn2").addEventListener("click", function() {
@@ -19,8 +18,6 @@ document.getElementById("btn2").addEventListener("click", function() {
     }
 });
 
-// Faire apparaître les questions au fur et à mesure
-
 document.getElementById("btn3").addEventListener("click", function() {
     var resp = document.getElementById("response3").value;
     if (resp=="le charbon" || resp=="Le charbon" || resp=="LE CHARBON" || resp=="charbon" || resp=="Charbon" || resp=="CHARBON" || resp=="du charbon" || resp=="Du charbon" || resp=="DU CHARBON" ) {
@@ -30,6 +27,8 @@ document.getElementById("btn3").addEventListener("click", function() {
         alert("Tu as fini la première épreuve!")
     }
 });
+
+// ------ function --> faire apparaître la question suivante lors de la validation de la réponse ------
 
 function toggle_text(e1e2) {
     var span = document.getElementById('e1e2');

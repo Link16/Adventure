@@ -23,7 +23,7 @@
         <p>Attention! Prenez votre temps pour bien y répondre, le salut de Trüperdu dépend de vous...</p>
         <br>
         <h2>Qui suis-je? Je suis l'ennemi principal d'une série de jeu sorti exclusivement sur Nintendo. Mon âme est noire et j'apparais sous différentes formes, particulièrement représentative du mal absolu. Je détiens la Triforce de la Force...Je suis...</h2>
-        <form action="./controllers/getPOINTS.php" method="POST">
+        <form action="./controllers/getPoints3.php" method="POST">
             <label for="response4" :>
             <input type="text" id="response4" name="response4" required maxlength="20" size="25" placeholder="ta réponse" style="color:red"!important>
             <button type="button" id="btn4" onclick="toggle_text('span_txt');">valider</button>

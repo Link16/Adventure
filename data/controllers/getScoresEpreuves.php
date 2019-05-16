@@ -5,7 +5,7 @@ $total = 0;
 $_POST['response1'] = 'la vie';
 $_POST['response2'] = "l'ombre";
 $_POST['response3'] = 'le charbon';
-var_dump($_POST);
+
 if ($_POST['response1']=="la vie" || $_POST['response1']=="La vie" || $_POST['response1']=="vie" || $_POST['response1']=="VIE" || $_POST['response1']=="La Vie")
 {
     $total += 1;
@@ -16,7 +16,7 @@ if ($_POST['response2']=="l'ombre" || $_POST['response2']=="son ombre" || $_POST
     $total += 1;
 }
  
-if ($_POST['response3']=="le charbon" || $_POST['response2']=="Le charbon" || $_POST['response2']=="LE CHARBON" || $_POST['response2']=="charbon" || $_POST['response2']=="Charbon" || $_POST['response2']=="CHARBON" || $_POST['response2']=="du charbon" || $_POST['response2']=="Du charbon" || $_POST['response2']=="DU CHARBON" )
+if ($_POST['response3']=="le charbon" || $_POST['response3']=="Le charbon" || $_POST['response3']=="LE CHARBON" || $_POST['response3']=="charbon" || $_POST['response3']=="Charbon" || $_POST['response3']=="CHARBON" || $_POST['response3']=="du charbon" || $_POST['response3']=="Du charbon" || $_POST['response3']=="DU CHARBON" )
 {
     $total += 1;
 }

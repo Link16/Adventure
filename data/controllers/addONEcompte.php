@@ -39,7 +39,8 @@ foreach ($LOGGS as $LOGG) {
     $stmt->bindParam(':Login', $_POST['Login']);
     $stmt->bindParam(':Password', $_POST['Password']);
     $stmt->execute();
-    header("refresh:5;url=../index.php");}
+    
+    header("refresh:1;url=../index.php");}
 
     include '../templates/footer.html';?>
 </body>

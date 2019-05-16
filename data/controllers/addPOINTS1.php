@@ -1,7 +1,7 @@
 <?php
 session_start();
 $total = 0;
-var_dump($_POST);
+
 if ($_POST['response1']=="la vie" || $_POST['response1']=="La vie" || $_POST['response1']=="vie" || $_POST['response1']=="VIE" || $_POST['response1']=="La Vie")
 {
     $total += 1;

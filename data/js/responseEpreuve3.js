@@ -28,6 +28,8 @@ document.getElementById("btn6").addEventListener("click", function() {
     }
 });
 
+// ------ function --> faire apparaître la question suivante lors de la validation de la réponse ------
+
 function toggle_text(e1e2) {
     var span = document.getElementById('e1e2');
     if(span.style.visibility == "hidden") {
