@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/exportedcss.css">
     <link rel="stylesheet" href="./css/episode.css">
+    <link rel="icon" href="./ressources/favico.ico"/>
     <title>Epreuve 1 - Sagesse</title>
 </head>
 <body>
