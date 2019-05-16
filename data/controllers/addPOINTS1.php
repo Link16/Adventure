@@ -23,4 +23,4 @@ $pdo = new PDO('mysql:host=localhost; dbname=Scores', 'root', '0000', array(PDO:
     $stmt = $pdo->prepare('INSERT INTO score (Points) VALUES (:Points)');
     $stmt->bindParam(':Points', $total);
     $stmt->execute();
- header('Location:../Epreuve2.php');
+ header('Location: epreuve2.php');
