@@ -28,8 +28,15 @@ include './controllers/getALLcompte.php';?>
                 echo'</tr>';
             }?>
         </table>
+        <div class="basdroit" style="margin-bottom:40px; border:none;">
+                    <div id='zoubou' class="jouer" style='box-shadow : 5px 5px 30px blue'>
+                        <div class = "Crasse">
+                            <a href='./fin.php'><H1>Découvrir le score !</H1></a>
+                        </div>
+                   </div>
+                </div>
     </div>
-
+    
     
 
     </main>
