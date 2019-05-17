@@ -18,8 +18,8 @@ include './controllers/getALLcompte.php';?>
     <div class="containerbaba"><h1>Tableau des scores :</h1>
         <table id="t01">
             <tr>
-                <th>Points</th> 
                 <th>Personnage</th>
+                <th>Points</th> 
             </tr>
             <?php foreach ($scores as $score) {
                 echo '<tr>';

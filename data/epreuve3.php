@@ -51,7 +51,5 @@
 
 <script src="./js/responseEpreuve3.js"></script>
 
-<?php include './templates/footer.html'?>
-
 </body>
 </html>

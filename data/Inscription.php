@@ -18,7 +18,7 @@
         <label for="title">Nom</label>
       </div>
       <div class="col-75">
-        <input type="text" id="coucou" name="lastName" required>
+        <input type="text" id="lastName" name="lastName" required>
         <span id='missPrenom'></span><br>
       </div>
     </div>
@@ -27,7 +27,7 @@
         <label for="title">Prénom</label>
       </div>
       <div class="col-75">
-        <input type="text" id="cici" name="firstName" required>
+        <input type="text" id="firstName" name="firstName" required>
         <span id='missPrenom2'></span><br>
       </div>
     </div>
@@ -36,7 +36,7 @@
         <label for="title">Age</label>
       </div>
       <div class="col-75">
-        <input type="number" id="caca" name="age" size=3 min=0 required>
+        <input type="number" id="age" name="age" size=3 min=0 required>
         <span id='missPrenom3'></span><br>
       </div>
     </div>
@@ -45,7 +45,7 @@
         <label for="title">Login</label>
       </div>
       <div class="col-75">
-        <input type="text" id="cece" name="Login" required>
+        <input type="text" id="Login" name="Login" required>
         <span id='missPrenom4'></span><br>
       </div>
     </div>
@@ -54,7 +54,7 @@
         <label for="title">Password</label>
       </div>
       <div class="col-75">
-        <input type="password" id="coco" name="Password" required>
+        <input type="password" id="Password" name="Password" required>
         <span id='missPrenom5'></span><br>
       </div>
     </div>
@@ -65,11 +65,11 @@
   </form>
   <script>
     function myFunction() {
-      var zaza = document.getElementById("coucou").value;
-      var zizi = document.getElementById("cici").value;
-      var zouzou = document.getElementById("caca").value;
-      var zeze = document.getElementById("cece").value;
-      var zozo = document.getElementById("coco").value;
+      var missLastName = document.getElementById("lastName").value;
+      var missFirstName = document.getElementById("firstName").value;
+      var missAge = document.getElementById("age").value;
+      var missLogin = document.getElementById("Login").value;
+      var missPassword = document.getElementById("Password").value;
       var missPrenom = document.getElementById('missPrenom');
       var missPrenom1 = document.getElementById('missPrenom2');
       var missPrenom2 = document.getElementById('missPrenom3');
@@ -77,31 +77,31 @@
       var missPrenom4 = document.getElementById('missPrenom5');
       var i = 5;
       while (i > 0) {
-      if (zaza == "") 
+      if (missLastName == "") 
       {
         event.preventDefault();
                     missPrenom.textContent = 'Nom manquant';
                     missPrenom.style.color = 'red';
       }
-      else if (zizi == "")
+      else if (missFirstName == "")
       {
         event.preventDefault();
         missPrenom1.textContent = 'Prénom manquant';
         missPrenom1.style.color = 'red';
       }
-      else if (zouzou == "")
+      else if (missAge == "")
       {
         event.preventDefault();
         missPrenom2.textContent = 'Age manquant';
         missPrenom2.style.color = 'red';
       }
-      else if (zeze == "")
+      else if (missLogin == "")
       {
         event.preventDefault();
         missPrenom3.textContent = 'Login manquant';
         missPrenom3.style.color = 'red';
       }
-      else if (zozo == "")
+      else if (missPassword == "")
       {
         event.preventDefault();
         missPrenom4.textContent = 'Password manquant';
