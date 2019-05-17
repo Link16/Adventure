@@ -1,0 +1,84 @@
+1- S'allonge et rétrécit
+Qu'est ce qui s'allonge et rétrécit en même temps ?
+--> la vie
+
+2- Plus grand que la tour Eiffel
+Qu'est ce qui est plus grand que la Tour Eiffel, mais infiniment moins lourd ?
+--> son ombre
+
+3- Les 9 points des 4 traits magiques
+. . . 
+
+. . . 
+
+. . .
+
+Vous devez relier ces 9 points par 4 traits et sans lâcher le crayon.
+
+4- facile
+je suis noir, je deviens rouge, et je finis blanc...
+--> le charbon
+
+5- L'énigme d'Einstein
+Il y a 5 maisons dans la rue et chacune a une couleur différente.
+Dans chaque maison habite une personne de chaque nationalité différente.
+Chacune de ces personnes a une boisson, une marque de cigarette et un animal domestique préférés.
+Aucune de ces personnes ne boit la même boisson, ne fume les mêmes cigarettes et n'a le même animal que son voisin.
+Question : à qui appartient le poisson ?
+
+Indices :
+1 l'Anglais habite la maison rouge
+2 le Suédois a un chien
+3 le Danois aime boire du thé
+4 la maison verte est immédiatement à gauche de la maison blanche
+5 le propriétaire de la maison verte boit du café
+6 la personne qui fume des Pall Mall a un oiseau
+7 l'homme qui habite dans la maison du milieu boit du lait
+8 la personne de la maison jaune fume des Dunhill
+9 le Norvégien habite dans la première maison
+10 le fumeur de Marlboro habite à côté de celui qui a le chat
+11 l'homme qui a un cheval habite à côté de celui qui fume des Dunhill
+12 le fumeur de Winfield boit de la bière
+13 le Norvégien habite à côté de la maison bleue
+14 l'Allemand fume des Rothmans
+15 le fumeur de Marlboro a un voisin qui boit de l'eau
+
+Pour information, il se dit que cette énigme a été posée par Einstein, mais cela n'est pas attesté.
+--> Solution
+La réponse est l'Allemand. Voici le raisonnement. Prenez un crayon et un papier et faites un tableau au fur et à mesure, ou vérifiez le vôtre. ;-)
+1) le Norvégien vit à côté de la maison bleue et vit dans la première maison.
+2) celui au milieu a du lait
+3) celui de la maison verte boit du café et est à gauche de la maison blanche => Qu'une solution possible : le vert est en 4ème position et le blanc en 5.
+4) L'Anglais a une maison rouge. Vu qu'à gauche il est norvégien et que les maisons 2, 4 et 5 ne sont pas rouge, l'Anglais est en 3ème position.
+5) Vu que toutes les couleurs sauf la première sont trouvées, la première maison est jaune. Et on sait aussi que celui de la maison jaune fume des Dunhill.
+6) Celui qui a le cheval est à côté de celui qui a des Dunhill. Etant donné que celui qui fume des Dunhill est à la 1ère maison, il n'a qu'un seul voisin. Donc celui qui a le cheval est à la maison 2.
+7) Celui qui fume des Winfield boit de la bière. Que 2 solutions : la maison bleue ou la maison blanche.
+8) Le Suédois a un chien. 2 solutions possibles : la maison verte ou la blanche.
+9) Le Danois boit du thé. 2 solutions : maison bleue ou maison blanche.
+10) On a vu que la personne qui boit du thé est dans la maison bleue ou blanche et idem pour celui qui boit de la bière. Donc, la maison bleue et la maison blanche ne peuvent avoir que du thé ou de la bière et pas autre chose (pas d'eau, important pour la suite du raisonnement)
+11) Etant donné que la maison 2, 3, 4 et 5 n'ont pas d'eau, celui de la maison 1 boit de l'eau. Celui qui fume des Marlboro est à côté de celui qui boit de l'eau. Donc, il est dans la maison 2.
+
+Le fumeur de Winfield était à la maison 2 ou 5. Maintenant, on sait qu'il est à la 5 (la 2 est celle du fumeur de Marlboro). Et on sait aussi qu'il boit de la bière.
+
+12) Celui qui boit du thé est dans la maison bleue ou blanche or on vient de voir que la maison blanche était prise par celui qui boit de la bière. Donc, celui qui boit du thé (le Danois) est dans la maison 2.
+13) Celui qui fume des Marlboro est à côté de celui qui a un chat. Donc, le chat est dans la maison 1 ou 3.
+14) On ne connait pas la nationalité de la personne de la maison 4 et 5. Ce ne peut être qu'un Danois ou un Allemand dans ces maisons
+15) L'Allemand fume des Rothmans. Seule solution, la maison 4 (dans la 5, c'est un fumeur de Winfield).
+Donc, le Suédois est dans la maison 5 et on sait qu'il a un chien.
+16) Celui qui fume des Pall Mall a un oiseau. Qu'une solution : la maison 3. 
+17) On n'avait pas encore trouvé l'animal de l'Allemand. Il ne reste que le poisson rouge de possible.
+
+
+6- Déterminer la ligne suivante :
+
+1
+
+1 1
+
+2 1
+
+1 2 1 1
+
+1 1 1 2 2 1
+
+--> 312211

@@ -1,6 +1,6 @@
 <?php
 $pdo = new PDO('mysql:host=localhost; dbname=Connect', 'root', '0000', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
-$stmt = $pdo->prepare('SELECT * FROM score');
+$stmt = $pdo->prepare('DELETE FROM LOGG WHERE id = :id');
+$stmt->bindParam(':id', $_POST['id']);
 $stmt->execute();
-$scores = $stmt->fetchAll(PDO::FETCH_ASSOC);
-?>
+header('Location: ./list.php');

@@ -12,33 +12,36 @@
 </head>
 <body>
 <?php include './templates/header.php'; 
-include './controllers/getAllScores.php';
+include './controllers/getALLScores.php';
 include './controllers/getALLcompte.php';?>
 <main>
     <div class="containerbaba"><h1>Tableau des scores :</h1>
         <table id="t01">
             <tr>
-                <th>Personnage</th>
                 <th>Points</th> 
+                <th>Personnage</th>
             </tr>
             <?php foreach ($scores as $score) {
                 echo '<tr>';
                 echo'<td>'.$score['perso'].'</td>';
-                echo '<td>'.$score['points'].'</td>';
+                echo '<td>'.$score['Points'].'</td>';
                 echo'</tr>';
             }?>
         </table>
         <div class="basdroit" style="margin-bottom:40px; border:none;">
-            <div id='zoubou' class="jouer" style='box-shadow : 5px 5px 30px blue'>
-                <div class = "Crasse">
-                    <a href='./fin.php'><h1>Découvrir le score !</h1></a>
+                    <div id='zoubou' class="jouer" style='box-shadow : 5px 5px 30px blue'>
+                        <div class = "Crasse">
+                            <a href='./fin.php'><H1>Découvrir le score !</H1></a>
+                        </div>
+                   </div>
                 </div>
-            </div>
-        </div>
     </div>
-</main>
+    
+    
 
-<?php include './templates/footer.html'; ?>
+    </main>
+
+    <?php include './templates/footer.html'; ?>
 
 </body>
 </html>
