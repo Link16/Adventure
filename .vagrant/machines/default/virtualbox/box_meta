@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-{"name":"ubuntu/trusty64","version":"20190420.0.0","provider":"virtualbox","directory":"boxes/ubuntu-VAGRANTSLASH-trusty64/20190420.0.0/virtualbox"}
-=======
-{"name":"ubuntu/xenial64","version":"20180824.0.0","provider":"virtualbox","directory":"boxes/ubuntu-VAGRANTSLASH-xenial64/20180824.0.0/virtualbox"}
->>>>>>> david
-=======
-{"name":"ubuntu/trusty64","version":"20190420.0.0","provider":"virtualbox","directory":"boxes/ubuntu-VAGRANTSLASH-trusty64/20190420.0.0/virtualbox"}
->>>>>>> origin
