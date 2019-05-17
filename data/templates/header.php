@@ -28,7 +28,7 @@
         echo '<li><a>'.'Bienvenue '.$sess.'</a></li>';
         }
       }
-        ?>
+      ?>
     </ul>
   </nav>
 </header>

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/exportedcss.css">
+    <!-- <link rel="stylesheet" href="./css/exportedcss.css"> -->
     <link rel="stylesheet" href="./css/episode.css">
     <link rel="icon" href="./ressources/favico.ico"/>
     <title>Epreuve 1 - Sagesse</title>
@@ -19,8 +19,8 @@
 <main>
     <div class="containerbaba">
         <h1>EPREUVE DE SAGESSE</h1>
-        <p>Vous voici arrivé(e) à la première épreuve de votre périple : l'épreuve de <strong>Sagesse</strong>.</p>
-        <p>Il y a 3 énigmes à résoudre...A <strong>vous</strong> de bien y répondre!</p>
+        <h4>Vous voici arrivé(e) à la première épreuve de votre périple : l'épreuve de <strong>Sagesse</strong>.</h4>
+        <h4>Il y a 3 énigmes à résoudre...A <strong>vous</strong> de bien y répondre!</h4>
         <br>
         <h2>Jeune héro(ïne), selon toi, qu'est-ce-qui s'allonge et rétrécit en même temps?</h2>
         <form action="./controllers/addPOINTS1.php" method="POST">
@@ -44,7 +44,7 @@
             <br>
         </span>
         <br>
-        <h3>Mamie Müjo te félicite pour ton courage et ta vaillance et t'invite à la <strong>2e épreuve</strong>...celle d'<strong>AGILITE</strong></h3>
+        <h4>Mamie Müjo te félicite pour ton courage et ta vaillance et t'invite à la <strong>2e épreuve</strong>...celle d'<strong>AGILITE</strong></h>
         <input type="submit" value="continuer">
     </div>
 </main>
