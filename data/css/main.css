@@ -1,6 +1,6 @@
 
 html { 
-     background-image: url('../ressources/135101.jpg');
+     
      height:100vh;
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
@@ -18,8 +18,9 @@ html {
     color:white;
   }
   body {
+    background-image: url('../ressources/135101.jpg');
     margin: 0;
-    height: 100vh;
+    /* height: 100vh; */
   }
   label{
     color:black!important;
@@ -118,11 +119,16 @@ html {
     width: 50%;
     display:flex;
 }
+
 .containerbaba {
   background-color: rgba(51, 51, 51, 0.829);
   flex-direction: column;
   margin: auto;
+<<<<<<< HEAD
   height:80vh;
+=======
+  /* height:90vh; */
+>>>>>>> dave
   width: 80%;
   display:flex;
   box-align: border-box;

@@ -35,8 +35,8 @@
   else
   {
     echo '<h1>Mot de passe incorrect</h1>';
+    var_dump($_POST);die;
     header("refresh:1;url=./connect.php");}
-
-include './templates/footer.html'; ?>    
+include './templates/footer.html';;?>    
   </body>
   </html>
