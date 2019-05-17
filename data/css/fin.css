@@ -100,7 +100,7 @@ img{
   width: 50%;
   height:100px;
   bottom:45%;
-  background-color: rgba(0, 0, 0, 0.74);
+  background-color: rgba(0, 0, 0, 0);
 }
 .tracking-in-expand {
 	-webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
@@ -144,8 +144,8 @@ img{
 /*--------------------------------------------------------------*/
 h1 {
   text-align: center;
-  font-size: 50px;
-  color : rgba(223, 12, 12, 0.87);
+  font-size: 150px;
+  color : rgba(0, 0, 0, 0.87);
 }
 .butt{
   padding: 1.5% 100%;
