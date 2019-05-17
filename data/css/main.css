@@ -63,7 +63,8 @@ ul.topnav li.right {float: right;}
   ul.topnav li.right, 
   ul.topnav li {float: none;}
 }
-  
+
+
 .footer {
   position: fixed;
   left: 0;

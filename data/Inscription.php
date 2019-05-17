@@ -12,7 +12,7 @@
 <body>
   <?php include './templates/header.php';?>
  <div style = 'margin-top = 150px !important' class="container">
-  <form action="./controllers/addONEcompte.php" method="post">
+  <form class="form" action="./controllers/addONEcompte.php" method="post">
     <div class="row">  
       <div class="col-25">
         <label for="title">Nom</label>
@@ -117,5 +117,6 @@
     }
   </script>
   <?php include './templates/footer.html';?>
+  <script src="./js/seeMyPassword.js"></script>
 </body>
 </html>

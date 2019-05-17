@@ -10,9 +10,10 @@
     <title>Connection</title>
 </head>
 <body>
+    <?php include'./templates/header.php';
+    include'./templates/formulaire.html';
+    include'./templates/footer.html';?>
     
+<script src="./js/seeMyPassword.js"></script>
 </body>
 </html>
-<?php include'./templates/header.php';
-include'./templates/formulaire.html';
-include'./templates/footer.html';?>
