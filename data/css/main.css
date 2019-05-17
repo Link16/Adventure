@@ -1,7 +1,6 @@
 
 html { 
-     
-     height:100vh;
+    height:100vh;
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
