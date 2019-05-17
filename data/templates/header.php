@@ -1,7 +1,7 @@
 <header>
   <nav>
     <ul class="topnav">
-      <li><a class = "active" href="/">Accueil</a></li>
+      <li><a class = "active" href="/" style="margin-top:inherit;">Accueil</a></li>
       <?php if (!isset($_SESSION['login']))
       {
         echo '<li><a href="./connect.php">Connect</a></li>';

@@ -6,7 +6,8 @@ $stmt->bindParam(':perso', $_SESSION['search']);
 $stmt->execute();
 $POINTS = $stmt->fetch(PDO::FETCH_ASSOC);
 
-if($_POST['response5'] =="ganon" || $_POST['response4']=="Ganon" || $_POST['response4']=="GANON" || $_POST['response4']=="ganondorf" || $_POST['response4']=="Ganondorf" || $_POST['response4']=="GANONDORF")
+$totalepreuve3 = 0;
+if($_POST['response4'] =="ganon" || $_POST['response4']=="Ganon" || $_POST['response4']=="GANON" || $_POST['response4']=="ganondorf" || $_POST['response4']=="Ganondorf" || $_POST['response4']=="GANONDORF")
 {
     $totalepreuve3  += 1;
 }
