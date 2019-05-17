@@ -20,12 +20,10 @@
         <p>Mamie Müjo, la doyenne du village, était préparée au retour de la sorcière. Elle fera passer aux jeunes de Trüperdu les épreuves de <strong>Sagesse, Agilité et Savoir</strong> afin de savoir qui pourrait stopper et anéantir la terrible sorcière Marcelle dans sa folie.</p>
     <h1>SERAS-TU LE HEROS OU l'HEROÏNE DONT LE VILLAGE A BESOIN ?</h1>
 </div>
+ 
+</main>
 
-    
-
-    </main>
-
-    <?php include './templates/footer.html'; ?>
+<?php include './templates/footer.html'; ?>
 
 </body>
 </html>

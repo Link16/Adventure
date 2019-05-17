@@ -1,4 +1,5 @@
 <?php session_start();?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -14,7 +15,6 @@
 include './controllers/getALLScores.php';
 include './controllers/getALLcompte.php';?>
 <main>
-<!-- Pitch du jeu -->
     <div class="containerbaba"><h1>Tableau des scores :</h1>
         <table id="t01">
             <tr>
