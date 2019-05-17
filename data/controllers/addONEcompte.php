@@ -27,7 +27,7 @@ foreach ($LOGGS as $LOGG) {
   if ($test == TRUE)
   {
     echo "Ce login est déjà utilisé, merci d'en choisir un autre !";
-    header("refresh:5;url=../Inscription.php");}
+    header("refresh:3;url=../Inscription.php");}
   else
   {
     echo "Redirection dans 5 secondes";

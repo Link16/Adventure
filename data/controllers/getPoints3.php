@@ -1,8 +1,8 @@
 <?php
 session_start();
-$pdo = new PDO('mysql:host=localhost; dbname=Connect', 'root', '0000', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
-$stmt = $pdo->prepare('SELECT * FROM score WHERE logins = :logins');
-$stmt->bindParam(':login', $_SESSION['search']);
+$pdo = new PDO('mysql:host=localhost; dbname=Scores', 'root', '0000', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
+$stmt = $pdo->prepare('SELECT * FROM score WHERE perso = :perso');
+$stmt->bindParam(':perso', $_SESSION['search']);
 $stmt->execute();
 $POINTS = $stmt->fetch(PDO::FETCH_ASSOC);
 
@@ -22,12 +22,12 @@ if($_POST['response6'] =="la suite de fibonacci" || $_POST['response6']=="La sui
     $totalepreuve3  += 1;
 }
 
-$total = $POINTS['points'] + $totalepreuve3;
+$total = $POINTS['Points'] + $totalepreuve3;
 
-$pdo = new PDO('mysql:host=localhost; dbname=Connect', 'root', '0000', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
-$stmt = $pdo->prepare('UPDATE score SET points = :points WHERE perso = :perso');
+$pdo = new PDO('mysql:host=localhost; dbname=Scores', 'root', '0000', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
+$stmt = $pdo->prepare('UPDATE score SET Points = :Points WHERE perso = :perso');
 $stmt->bindParam(':perso', $_SESSION['search']);
-$stmt->bindParam(':points', $total);
+$stmt->bindParam(':Points', $total);
 $stmt->execute();
 
 header('Location: ../finalscore.php');

@@ -24,7 +24,7 @@ include './controllers/getALLcompte.php';?>
             <?php foreach ($scores as $score) {
                 echo '<tr>';
                 echo'<td>'.$score['perso'].'</td>';
-                echo '<td>'.$score['points'].'</td>';
+                echo '<td>'.$score['Points'].'</td>';
                 echo'</tr>';
             }?>
         </table>
