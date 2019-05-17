@@ -15,7 +15,7 @@ include './controllers/getALLScores.php';
 include './controllers/getALLcompte.php';?>
 <main>
 <!-- Pitch du jeu -->
-    <div class="containerbaba"><h1>WELCOME TO <strong>ADVENTURE</strong></h1>
+    <div class="containerbaba"><h1>Tableau des scores :</h1>
         <table id="t01">
             <tr>
                 <th>Points</th> 

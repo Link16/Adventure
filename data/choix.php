@@ -15,12 +15,12 @@
  foreach ($_POST as $key => $value) {
     $_SESSION[$key] = $value;} 
     ?>
-    <div class='containerbaba'>
+    <div class='containerbaba'style="height:83vh; width:150vh;">
         <div class='top'>
             <?='<h1>'.'Bonjour Aventurier '.$_SESSION['search'].'</h1>'?>
         </div>
-        <div class="regles">
-            <p><strong>Voici les règles:</strong><br><br>
+        <div class="regles" style='text-align:center'>
+            <p style="margin-top:60px;"><strong>Voici les règles:</strong><br><br>
             Ici bas tu devras résoudre des énigmes et faire preuve de concentration, ainsi tu accumuleras un total de points.<br><br>
             Si tu fais partis du TOP 5 des joueurs, tu pourras aller affronter la sorcière !<br><br>
             Ne te précipite pas et prend ton temps pour répondre correctement aux épreuves de sagesse et savoir.

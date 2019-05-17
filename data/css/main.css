@@ -5,7 +5,11 @@ html {
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-  }
+      background: url('../ressources/135101.jpg') no-repeat center fixed; 
+      -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+      background-size: cover; /* version standardisée */
+    }
+  
   
   h1 {
     text-align: center;
@@ -18,7 +22,6 @@ html {
     color:white;
   }
   body {
-    background-image: url('../ressources/135101.jpg');
     margin: 0;
     /* height: 100vh; */
   }
@@ -124,11 +127,7 @@ html {
   background-color: rgba(51, 51, 51, 0.829);
   flex-direction: column;
   margin: auto;
-<<<<<<< HEAD
-  height:80vh;
-=======
   /* height:90vh; */
->>>>>>> dave
   width: 80%;
   display:flex;
   box-align: border-box;
